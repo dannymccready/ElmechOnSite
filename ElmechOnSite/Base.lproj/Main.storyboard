@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E2V-sR-p4y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Ja-WS-AFL">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1hr-w8-0Td">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -44,7 +44,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hPM-sI-Cvz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="639.0625" y="155.859375"/>
+            <point key="canvasLocation" x="1404.6875" y="155.859375"/>
         </scene>
         <!--New Employee-->
         <scene sceneID="03b-03-LEm">
@@ -97,7 +97,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ri0-Hg-RQu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="638.28125" y="840.8203125"/>
+            <point key="canvasLocation" x="1405" y="890"/>
         </scene>
         <!--OnSite Selfie-->
         <scene sceneID="JM7-JV-pLS">
@@ -108,7 +108,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h7g-d9-O9w">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -132,48 +132,66 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lpa-Qo-mE7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="639.0625" y="-485.15624999999994"/>
+            <point key="canvasLocation" x="1404.6875" y="-485.15624999999994"/>
         </scene>
-        <!--View Controller-->
+        <!--Elmech Ltd-->
         <scene sceneID="THr-8X-zOy">
             <objects>
-                <viewController id="E2V-sR-p4y" sceneMemberID="viewController">
+                <viewController id="E2V-sR-p4y" customClass="StartViewController" customModule="ElmechOnSite" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c5b-k2-DnB">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxM-Gv-wbU">
-                                <rect key="frame" x="201" y="219" width="226" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="OnSiteSelfie"/>
-                                <connections>
-                                    <segue destination="977-dL-fg9" kind="show" id="ANm-ej-hlb"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbx-qW-9em">
-                                <rect key="frame" x="201" y="427" width="250" height="134"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Elmech Home Page"/>
-                                <connections>
-                                    <segue destination="8nO-WA-X25" kind="show" id="ixg-qs-mBH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cv9-tr-oTd">
-                                <rect key="frame" x="201" y="614" width="266" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="New employee form"/>
-                                <connections>
-                                    <segue destination="kel-oS-qML" kind="show" id="OIO-2B-37g"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="kVS-Us-MGb">
+                                <rect key="frame" x="316" y="459" width="137" height="106"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxM-Gv-wbU">
+                                        <rect key="frame" x="0.0" y="0.0" width="137" height="30"/>
+                                        <state key="normal" title="OnSiteSelfie"/>
+                                        <connections>
+                                            <action selector="onSiteSelfie:" destination="E2V-sR-p4y" eventType="touchUpInside" id="KaJ-Eb-eZN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbx-qW-9em">
+                                        <rect key="frame" x="0.0" y="38" width="137" height="30"/>
+                                        <state key="normal" title="Elmech Home Page"/>
+                                        <connections>
+                                            <action selector="elmechWebsite:" destination="E2V-sR-p4y" eventType="touchUpInside" id="29H-79-RIr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cv9-tr-oTd">
+                                        <rect key="frame" x="0.0" y="76" width="137" height="30"/>
+                                        <state key="normal" title="New employee form"/>
+                                        <connections>
+                                            <action selector="newEmployee:" destination="E2V-sR-p4y" eventType="touchUpInside" id="I7u-bd-tyw"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="cv9-tr-oTd" firstAttribute="height" secondItem="oxM-Gv-wbU" secondAttribute="height" id="6Pn-Vw-EFS"/>
+                                    <constraint firstItem="gbx-qW-9em" firstAttribute="height" secondItem="oxM-Gv-wbU" secondAttribute="height" id="SWD-Ei-AJB"/>
+                                    <constraint firstItem="gbx-qW-9em" firstAttribute="width" secondItem="oxM-Gv-wbU" secondAttribute="width" id="cc4-fM-ify"/>
+                                    <constraint firstItem="cv9-tr-oTd" firstAttribute="width" secondItem="oxM-Gv-wbU" secondAttribute="width" id="s5J-yE-TdU"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kVS-Us-MGb" firstAttribute="centerX" secondItem="c5b-k2-DnB" secondAttribute="centerX" id="28U-kl-Cch"/>
+                            <constraint firstItem="kVS-Us-MGb" firstAttribute="centerY" secondItem="c5b-k2-DnB" secondAttribute="centerY" id="M6P-wh-mzL"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="8rh-Sc-1S0"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Elmech Ltd" id="VDh-OY-vcE"/>
+                    <connections>
+                        <segue destination="GIc-61-eYC" kind="presentation" identifier="onSiteSelfie" id="fDC-Zs-qVB"/>
+                        <segue destination="GIc-61-eYC" kind="presentation" identifier="elmechHomePage" id="XJh-kA-eft"/>
+                        <segue destination="GIc-61-eYC" kind="presentation" identifier="newEmployee" id="Uou-1a-ak6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="akg-wS-dzb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1373" y="538"/>
+            <point key="canvasLocation" x="-1094" y="156"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="VWn-5c-Q1K">
@@ -197,7 +215,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f85-P8-thw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1373" y="-349"/>
+            <point key="canvasLocation" x="-198" y="156"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EmI-rI-XUe">
@@ -216,7 +234,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KN6-U1-eP2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-127.34375" y="840.8203125"/>
+            <point key="canvasLocation" x="639" y="890"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RrL-LS-gKr">
@@ -236,7 +254,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xnw-LI-RHo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-126.5625" y="155.859375"/>
+            <point key="canvasLocation" x="639.0625" y="155.859375"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JN6-cl-ZEX">
@@ -255,7 +273,25 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fuX-pb-LOe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-126.5625" y="-485.15624999999994"/>
+            <point key="canvasLocation" x="639.0625" y="-485.15624999999994"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="157-Bb-dPe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Ja-WS-AFL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VY3-uP-w6l">
+                        <rect key="frame" x="0.0" y="20" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="E2V-sR-p4y" kind="relationship" relationship="rootViewController" id="T0A-Jg-q7X"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pm2-mO-3yb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1948" y="156"/>
         </scene>
     </scenes>
     <resources>
@@ -264,8 +300,6 @@
         <image name="web-icon" width="45" height="45"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ANm-ej-hlb"/>
-        <segue reference="OIO-2B-37g"/>
-        <segue reference="ixg-qs-mBH"/>
+        <segue reference="Uou-1a-ak6"/>
     </inferredMetricsTieBreakers>
 </document>

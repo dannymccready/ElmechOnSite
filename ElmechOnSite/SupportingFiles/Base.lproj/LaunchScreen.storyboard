@@ -18,16 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Hio-QN-Nxj">
-                                <rect key="frame" x="177" y="333" width="20" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </activityIndicatorView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled-1" translatesAutoresizingMaskIntoConstraints="NO" id="IBP-zg-GU5">
-                                <rect key="frame" x="8" y="25" width="760" height="999"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled-1" translatesAutoresizingMaskIntoConstraints="NO" id="IBP-zg-GU5">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IBP-zg-GU5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EbW-8v-4d4"/>
+                            <constraint firstItem="IBP-zg-GU5" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ZFg-Lx-bRa"/>
+                            <constraint firstItem="IBP-zg-GU5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="mRD-jx-GLs"/>
+                            <constraint firstItem="IBP-zg-GU5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="x7u-Zo-gzo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
