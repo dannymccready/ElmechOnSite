@@ -29,7 +29,7 @@ class OnSiteSelfieViewController: UIViewController, WKUIDelegate, WKNavigationDe
         view = webView
         webView.uiDelegate = self;
 
-        let myURL = URL(string: "http://www.onsiteselfie.com")
+        let myURL = URL(string: "https://www.onsiteselfie.com")
         let myRequest = URLRequest(url: myURL!)
         webView.load(myRequest)
     }
